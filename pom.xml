@@ -59,12 +59,12 @@
             </goals>
             <configuration>
               <rules>
-                <<requireMavenVersion>
-  <version>[3.6.0,)</version> <!-- Allow Maven 3.6+ -->
-</requireMavenVersion>
-<requireJavaVersion>
-  <version>[17,)</version> <!-- Allow Java 17+ -->
-</requireJavaVersion>
+                <requireMavenVersion>
+                  <version>[3.6.0,)</version> 
+                </requireMavenVersion>
+                <requireJavaVersion>
+                  <version>[17,)</version>
+                </requireJavaVersion>
               </rules>
             </configuration>
           </execution>
